@@ -2,7 +2,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 10pt;
-    color: black; 
+    color: black; /* Changed text color to black */
     background-color: #f6f6ef;
 }
 .container {
@@ -26,6 +26,10 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+}
+.content-wrapper {
+    background-color: #f6f6ef;
+    padding: 20px;
 }
 main {
     margin-left: 20px;

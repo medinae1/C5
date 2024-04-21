@@ -2,13 +2,17 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 10pt;
-    color: #828282;
+    color: black; /* Changed text color to black */
     background-color: #f6f6ef;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header {
     background-color: #ff6600;
     padding: 10px;
-    text-align: center;
 }
 header h1 {
     margin: 0;
@@ -23,12 +27,15 @@ nav ul li {
     display: inline;
     margin-right: 10px;
 }
-nav ul li a {
-    color: #828282;
-    text-decoration: none;
-}
 main {
     margin-left: 20px;
+}
+main article h2 {
+    margin: 0;
+    color: #ff6600;
+}
+main article p {
+    margin-top: 5px;
 }
 footer {
     text-align: center;

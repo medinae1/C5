@@ -2,7 +2,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 10pt;
-    color: black; /* Changed text color to black */
+    color: black; 
     background-color: #f6f6ef;
 }
 .container {
@@ -35,7 +35,7 @@ main article {
 }
 main article h2 {
     margin: 0;
-    color: #ff6600;
+    color: black;
 }
 main article p {
     margin-top: 5px;

@@ -30,12 +30,23 @@ nav ul li {
 main {
     margin-left: 20px;
 }
+main article {
+    margin-bottom: 20px;
+}
 main article h2 {
     margin: 0;
     color: #ff6600;
 }
 main article p {
     margin-top: 5px;
+}
+.post-number {
+    color: #828282;
+    margin-right: 5px;
+}
+.post-meta {
+    font-size: 9pt;
+    color: #828282;
 }
 footer {
     text-align: center;
